@@ -220,6 +220,10 @@ h1{
 	font-size: 15px;
 }
 
+inform{
+	position: relative;
+	
+}
 
 
 div.gallery {
@@ -348,4 +352,8 @@ div.desc {
    position: absolute;
    left: 0; 
    color: rgba(255,255,255,0.9);
+}
+
+table, td, th {
+	text-align: center;
 }
