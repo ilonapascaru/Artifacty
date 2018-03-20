@@ -20,32 +20,19 @@ input {
 }
 
 
-
 a{
     text-decoration: none;
     color:black;
 }
 
 
-input:hover {
-    border-color: #a0a0a0 #b9b9b9 #b9b9b9 #b9b9b9;
-}
-input:focus {
-    border-color: #cc8800;
-}
 input[type="submit"] {
     background: #d0d0e1;
     color: #cc8800;
     cursor: default;
     font-weight: bold;
 }
-input[type="submit"]:hover {
-    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
-    background: #a3a3c2;
-    border: 1px solid #c6c6c6;
-    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
-    color: #cc8800;
-}
+
 header {
     padding: 40px;
     color: black;
@@ -113,35 +100,49 @@ ul.sidebar {
     font-size: 1.40em;
     margin-left: 15px;
 }
+
+li.sidebar:hover
+{
+        box-shadow: inset 0 0 0 25px #53a7ea;
+}
+
+li.sidebar:hover
+{
+        box-shadow:
+                1px 1px #4d0000,
+                2px 2px #4d0000,
+                3px 3px #4d0000;
+        -webkit-transform: translateX(-3px);
+        transform: translateX(-3px);
+}
 li.sidebar {
-		display: inline-block;
-	  -webkit-box-sizing: content-box;
-	  -moz-box-sizing: content-box;
-	  box-sizing: content-box;
-	  cursor: pointer;
-	  padding: 5px 5px;
-	  border: 1px solid rgba(190,193,1,0.9);
-		margin-bottom: 5px;
-	  -webkit-border-radius: 14px;
-	  border-radius: 14px;
-	  font: normal normal bold 20px/normal "Palatino Linotype", "Book Antiqua", Palatino, serif;
-	  color: rgba(255,255,255,0.9);
-	  -o-text-overflow: clip;
-	  text-overflow: clip;
-	  background: 	#660000; 
-	  
-	  
+	display: inline-block;
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+	cursor: pointer;
+	padding: 5px 5px;
+	margin-bottom: 5px;
+	-webkit-border-radius: 14px;
+	font: normal normal bold 20px/normal "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	color: rgba(255,255,255,0.9);
+	-o-text-overflow: clip;
+	background: 	#660000; 
 	  text-shadow: 0 0 9px rgba(255,255,86,0.7) ;
-	  -webkit-transition: all 300ms cubic-bezier(0.42, 0, 0.58, 1);
-	  -moz-transition: all 300ms cubic-bezier(0.42, 0, 0.58, 1);
-	  -o-transition: all 300ms cubic-bezier(0.42, 0, 0.58, 1);
-	  transition: all 300ms cubic-bezier(0.42, 0, 0.58, 1);
 }
 a.sidebar {
     color: rgba(255,255,255,0.9);
     text-align: center;
     text-decoration: none;
 }
+
+.sidebar{
+	opacity : 0.9 ;
+}
+.sidebar:hover{
+	opacity: 1.0;
+}
+
 article {
     margin-top: 24px;
     margin-left: 170px;
@@ -149,9 +150,7 @@ article {
     overflow: hidden;
     font: normal normal bold 14px/1 "Palatino Linotype", "Book Antiqua", Palatino, serif;
 }
-#first {
-    font-size: 1.80em;
-}
+
 #title {
     text-align: left;
     margin-left: 80px;
@@ -160,7 +159,6 @@ article {
     text-shadow: 0 0 9px rgba(255,255,86,0.7);
 }
 
-.error {color: #FF0000;}
 
 input{
   -webkit-box-sizing: content-box;
@@ -195,9 +193,6 @@ tr{
 	  height: 50px;
 }
 
-form.searchbar {
-    float: right;
-}
 
 div.searchbar {
 float: right;}
@@ -212,13 +207,6 @@ float: right;}
 }
 
 
-h3{
-	text-align:center;
-}
-
-h1{
-	font-size: 15px;
-}
 
 inform{
 	position: relative;
@@ -245,61 +233,6 @@ div.gallery img {
 div.desc {
     padding: 15px;
     text-align: center;
-}
-
-
-div.artefacteTitle {
-    padding: 40px;
-    clear: left;
-    text-align: center;
-    font: italic normal bold 20px/normal "Palatino Linotype", "Book Antiqua", Palatino, serif;
-    color: #ff9999;
-}
-
-div.singleArtefact {
-    margin: 10px;
-    border: 1px solid #ccc;
-    float: left;
-    width: 240px;
-}
-
-
-div.singleDesc {
-    padding: 100px;
-    text-align: center;
-}
-
-
-div.singleArtefact img {
-    width: 100%;
-    height: 275px;
-}
-
-
-div.singleArtefact2 {
-    margin: 10px;
-    border: 1px solid #ccc;
-    float: left;
-    width: 240px;
-}
-
-div.singleArtefact2 img {
-    width: 100%;
-    height: 250px;
-}
-
-
-div.categorii {   
-    background-color: #fec15f;
-    color: #cc0000;
-    padding: 20px;
-    border-radius: 14px;
-    border-top-left-radius: 14px;
-    border-top-right-radius: 14px;
-    border-bottom-right-radius: 14px;
-    border-bottom-left-radius: 14px;
-    font: italic normal 15px/normal "Palatino Linotype", "Book Antiqua", Palatino, serif;
-    margin-bottom: 15px;
 }
 
 
@@ -330,13 +263,6 @@ div.desc {
     text-align: center;
 }
 
-
-.rating {
-  unicode-bidi: bidi-override;
-  direction: rtl;
-  text-align: center;
-  float:left;
-}
 .rating > span {
   display: inline-block;
   position: relative;
