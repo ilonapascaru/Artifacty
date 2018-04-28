@@ -2,52 +2,37 @@
 <html>
 
 <head>
-    <title>Home</title>
-    <link rel="stylesheet" href="css/styles.css">
-    <meta charset="UTF-8">
+	<title>Artifacty</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script src="js/functions.js"></script>
 </head>
-
 <body>
 
-    <div class="container">
 
-        <ul class="topbar">
-            <li class="topbar"><a class="topbar" href="login.html">Log in</a>
-            </li>
-            <li class="topbar"><a class="topbar" href="register.html">Register</a>
-            </li>
-        </ul>
 
-        <header>
-            <h1 id="title">ARTIFACTY</h1>
+<!-- navbar -->
+<div class="topnav" id="myTopnav">
+  <a href="home.html" class="active">Home</a>
+  <a href="colectii.html">Colectii</a>
+  <a href="recenzii.html">Recenzii</a>
+  <a href="statistici.html">Statistici</a>
+  <a href="contact.html">Contact</a>
+  <a href="cauta.html">Cauta</a>
+  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
 
-        </header>
+	
 
-        <nav class="sidebar">
-            <ul class="sidebar">
-                <li class="sidebar"><a class="sidebar" href="home.html">Home</a>
-                </li>
-                <li class="sidebar"><a class="sidebar" href="colectii.html">Colectii</a>
-                </li>
-                <li class="sidebar"><a class="sidebar" href="statistici.html">Statistici</a>
-                </li>
-                <li class="sidebar"><a class="sidebar" href="noutati.html">Noutati</a>
-                </li>
-                <li class="sidebar"><a class="sidebar" href="recenzii.html">Recenzii</a>
-                </li>
-                <li class="sidebar"><a class="sidebar" href="contact.html">Contact</a>
-                </li>
-                <li class="sidebar"><a class="sidebar" href="import.html">Import</a>
-                </li>
-            </ul>
-        </nav>
+	<a class="topbar" href="login.html">Log in</a>
+	<a class="topbar" href="register.html">Register</a>
 
-        <div class="searchbar">
-            <input type="text" placeholder="Search...">
-            <input type="submit" value="Go">
-        </div>
+</div>
 
-        <article>
+<div class="header">
+  <h1>Home</h1>
+</div>
+
+          <div class="col-6">
             <h1 id="first">Artifacty</h1>
             <p>Sa se dezvolte o aplicatie Web ce realizeaza managementul informatiilor privitoare la colectii de artefacte arheologice, structurate pe tipuri, roluri, conform localizarii geografice etc.</p>
             <p>Pentru fiecare artefact, pot fi atasate diverse meta-date -- e.g., autor (daca exista), licenta de utilizare, valoare, termeni-cheie (tag-uri) etc.</p>
@@ -56,15 +41,14 @@
             <p>Datele procesate vor putea fi importate/exportate si via documente in formatele CSV, JSON si XML.</p>
             <p>Bonus: recurgerea la servicii cartografice pentru ilustrarea localizarii geografice a fiecarui artefact.</p>
 
-        </article>
+          </div>  
 
 
 
-        <footer>Copyright &copy; Proiect TW</footer>
 
-    </div>
 
+
+<footer>Copyright &copy; Proiect TW</footer>
 
 </body>
-
 </html>
