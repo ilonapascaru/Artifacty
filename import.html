@@ -1,54 +1,41 @@
 <!DOCTYPE html>
 <html>
 
-<head>
-    <title>Home</title>
-    <link rel="stylesheet" href="css/styles.css">
-    <meta charset="UTF-8">
-</head>
 
+<head>
+
+	<title>Artifacty</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script src="js/functions.js"></script>
+</head>
 <body>
 
-    <div class="container">
 
-        <ul class="topbar">
-            <li class="topbar"><a class="topbar" href="login.html">Log in</a>
-            </li>
-            <li class="topbar"><a class="topbar" href="register.html">Register</a>
-            </li>
-        </ul>
 
-        <header>
-            <h1 id="title">ARTIFACTY</h1>
+<!-- navbar -->
+<div class="topnav" id="myTopnav">
+  <a href="home.html" >Home</a>
+  <a href="colectii.html">Colectii</a>
+ <a href="import.html"class="active">Import</a>
+  <a href="statistici.html">Statistici</a>
+  <a href="contact.html">Contact</a>
+  <a href="cauta.html">Cauta</a>
+  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
 
-        </header>
+	
 
-        <nav class="sidebar">
-            <ul class="sidebar">
-                <li class="sidebar"><a class="sidebar" href="home.html">Home</a>
-                </li>
-                <li class="sidebar"><a class="sidebar" href="colectii.html">Colectii</a>
-                </li>
-                <li class="sidebar"><a class="sidebar" href="statistici.html">Statistici</a>
-                </li>
-                <li class="sidebar"><a class="sidebar" href="noutati.html">Noutati</a>
-                </li>
-                <li class="sidebar"><a class="sidebar" href="recenzii.html">Recenzii</a>
-                </li>
-                <li class="sidebar"><a class="sidebar" href="contact.html">Contact</a>
-                </li>
-                <li class="sidebar"><a class="sidebar" href="import.html">Import</a>
-                </li>
-            </ul>
-        </nav>
+	<a class="topbar" href="login.html">Log in</a>
+	<a class="topbar" href="register.html">Register</a>
 
-        <div class="searchbar">
-            <input type="text" placeholder="Search...">
-            <input type="submit" value="Go">
-        </div>
+</div>
 
- <article>
-           <h1> Criterii de adaugare artefact:</h1>
+<div class="header">
+  <h1>Import</h1>
+</div>
+
+  <fieldset>
+           <legend><em>Importa artefact:</em></legend>
 
 <form>
 
@@ -74,32 +61,28 @@
   <li><label for="bc">d.Hr.</label> <input type="radio" name="year" id="bc" value="bc"></li> 
   </ul>
   <li><label for="comments">Cuvinte cheie:</label> <textarea name="comments" id="comments" cols="25" rows="2"></textarea></li>
-  <li><label for="comments">Aria de localizare:</label>
-  <select>
+  <li><label for="comments">Aria de localizare:</label> <select>
   <option value="grecia">Grecia Antica</option>
   <option value="nepal">Nepal</option>
   <option value="israel">Israel</option>
   <option value="egipt">Egipt </option>
-</select> </li> </br>
-  <input class="browse" type="file" id="myFile"><br>
-  <input type="submit" value="Submit" />
-
-
   
+  
+   <input class="browse" type="file" id="myFile"><br>
+  <input type="submit" value="Submit" />
+</select></li> </br>
+ 
 </ul>
 
-</form>
 
-
-
-
-</article>
-
-        <footer>Copyright &copy; Proiect TW</footer>
-
+</fieldset>
+      
+    </form>
     </div>
 
 
-</body>
 
+
+
+</body>
 </html>
