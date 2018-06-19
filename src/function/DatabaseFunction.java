@@ -1,6 +1,6 @@
 package function;
 
-        import java.sql.*;
+import java.sql.*;
 
 public class DatabaseFunction {
 
@@ -178,20 +178,47 @@ public class DatabaseFunction {
 
     }
 
+    public static void insertContact(String name, String email, String mesaj, Connection conn) throws SQLException {
+        PreparedStatement stmt = null;
+        ResultSet rs = null;
 
+        try{
+            String sql = "INSERT INTO `artifacty`.`contacte` (`nume`,`email`,`mesaj`) " +
+                    "VALUES (?,?,?);";
+            stmt = conn.prepareStatement(sql);
+            stmt.setString(1, name);
+            stmt.setString(2, email);
+            stmt.setString(3, mesaj);
+            stmt.executeUpdate();
 
-    public static void insertArtefact(String categorie, String tip, String secol, String denumire, String descriere, Connection conn){
+        } catch (Exception e) {
+            e.printStackTrace();
+            //return false;
+        } finally {
+            closeRs(rs);
+            closePs(stmt);
+        }
+
+    }
+
+    public static void insertArtefact(String localizare,String tip1,String rol, String tip, String secol,
+                                      String valoare,String denumire, String descriere,String link, Connection conn){
         PreparedStatement stmt = null;
         PreparedStatement stmt2 = null;
         PreparedStatement stmtTip = null;
         PreparedStatement stmtLoc = null;
+        PreparedStatement stmtRol=null;
 
 
         ResultSet rs = null;
         ResultSet rs2 = null;
+        ResultSet rs3=null;
+        ResultSet rs4=null;
+        ResultSet rs5=null;
         int artefactId;
         int tipId=0;
         int locId=0;
+        int rolId=0;
 
 
         try {
@@ -204,36 +231,44 @@ public class DatabaseFunction {
 
             String sql3="SELECT id_tip as ID FROM `artifacty`.`tip` WHERE denumire=? ";
             stmtTip = conn.prepareStatement(sql3);
-            stmtTip.setString(1, categorie);
-            rs2 = stmtTip.executeQuery();
+            stmtTip.setString(1, tip1);
+            rs3 = stmtTip.executeQuery();
 
-            if(rs2.next()==false)
-                tipId=0;
-            else
-                tipId = rs2.getInt("ID");
+            while (rs3.next()) {
+                tipId = rs3.getInt("ID");
+            }
 
-
-            String sql4="SELECT id_loc as ID FROM `artifacty`.`localizare` WHERE trim(denumire)=?";
+            String sql4="SELECT id_loc as ID FROM `artifacty`.`localizari` WHERE denumire=?";
             stmtLoc = conn.prepareStatement(sql4);
-            stmtLoc.setString(1, categorie);
-            rs2 = stmtTip.executeQuery();
-            if(rs2.next()==false)
-                locId=0;
-            else
-                locId = rs2.getInt("ID");
+            stmtLoc.setString(1, localizare);
+            rs4 = stmtLoc.executeQuery();
+            while (rs4.next()) {
+                locId = rs4.getInt("ID");
+            }
+
+            String sql5="SELECT id_rol as ID FROM `artifacty`.`roluri` WHERE denumire=?";
+            stmtRol = conn.prepareStatement(sql5);
+            stmtRol.setString(1, rol);
+            rs5 = stmtRol.executeQuery();
+            while (rs5.next()) {
+                rolId = rs5.getInt("ID");
+            }
 
             String sql = "INSERT INTO `artifacty`.`artefacte` (`id_artefact`, `id_user`, `denumire`, `id_tip`," +
-                    " `id_rol`, `id_loc`, `valoare`, `licenta`, `termeni_cheie`,`descriere`,`autor`,`perioada_datata`) " +
-                    "VALUES (?,1,?,?,1,?,1000,'','',?,'',?);";
+                    " `id_rol`, `id_loc`, `valoare`, `licenta`, `termeni_cheie`,`descriere`,`autor`,`perioada_datata`,`link`) " +
+                    "VALUES (?,1,?,?,?,?,?,'','',?,'',?,?);";
             stmt = conn.prepareStatement(sql);
             stmt.setInt(1, artefactId+1);
             stmt.setString(2, denumire);
+            //stmt.setString(3, denumire);
             stmt.setInt(3, tipId);
-            stmt.setInt(4, locId);
-            stmt.setString(5, descriere);
-            stmt.setString(6, secol);
+            stmt.setInt(4, rolId);
+            stmt.setInt(5, locId);
+            stmt.setString(6,valoare);
+            stmt.setString(7, descriere);
+            stmt.setString(8, secol);
+            stmt.setString(9, link);
             stmt.executeUpdate();
-            //return rs.next();
 
         } catch (Exception e) {
             e.printStackTrace();
