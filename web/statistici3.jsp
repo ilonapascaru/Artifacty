@@ -10,12 +10,12 @@
     //String dataPoints = null;
 
     try{
-            Class.forName("com.mysql.jdbc.Driver");
+        Class.forName("com.mysql.jdbc.Driver");
         Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/artifacty", "root", "root");
         Statement statement = connection.createStatement();
         String xVal, yVal;
 
-        ResultSet resultSet = statement.executeQuery("select * from statistica where x='Egipt' or x='GreciaAntica' or x='Nepal'");
+        ResultSet resultSet = statement.executeQuery("select * from statistica where x='Tehnic' or x='Social' or x='Estetic'");
 
         while(resultSet.next()){
             xVal = resultSet.getString("x");
@@ -25,7 +25,7 @@
             map = new HashMap<Object,Object>();
             map.put("label", xVal);
             map.put("y", Double.parseDouble(yVal));
-           // map.put("exploded", true);
+            // map.put("exploded", true);
             list.add(map);
 
 
@@ -36,7 +36,7 @@
         out.println("<div  style='width: 50%; margin-left: auto; margin-right: auto; margin-top: 200px;'>Could not connect to the database. Please check if you have mySQL Connector installed on the machine - if not, try installing the same.</div>");
         //dataPoints = null;
     }catch(Exception e) {
-    e.printStackTrace();
+        e.printStackTrace();
     }
     String dataPoints = gsonObj.toJson(list);
 %>
@@ -63,7 +63,7 @@
                 animationEnabled: true,
                 exportEnabled: true,
                 title: {
-                    text: "Statistica dupa localizare: "
+                    text: "Statistica dupa Rol: "
                 },
                 data: [{
                     type: "pie", //change type to bar, line, area, pie, etc
@@ -87,7 +87,7 @@
 <!-- navbar -->
 <div class="topnav" id="myTopnav">
     <a href="home.html" >Home</a>
-    <a href="colectii.jsp">Colectii</a>
+    <a href="colectii.html">Colectii</a>
     <a href="import.jsp">Import</a>
     <a href="statistici.jsp" class="active">Statistici</a>
     <a href="contact.jsp">Contact</a>
