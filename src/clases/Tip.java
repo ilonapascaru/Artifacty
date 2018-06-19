@@ -1,5 +1,9 @@
 package clases;
 
+import javax.xml.bind.annotation.XmlElement;
+import javax.xml.bind.annotation.XmlRootElement;
+
+@XmlRootElement
 public class Tip {
     private int id_tip;
     private String detalii;
@@ -8,7 +12,7 @@ public class Tip {
     public int getId_tip() {
         return id_tip;
     }
-
+    @XmlElement
     public void setId_tip(int id_tip) {
         this.id_tip = id_tip;
     }
@@ -16,7 +20,7 @@ public class Tip {
     public String getDetalii() {
         return detalii;
     }
-
+    @XmlElement
     public void setDetalii(String detalii) {
         this.detalii = detalii;
     }
@@ -24,7 +28,7 @@ public class Tip {
     public String getDenumire() {
         return denumire;
     }
-
+    @XmlElement
     public void setDenumire(String denumire) {
         this.denumire = denumire;
     }

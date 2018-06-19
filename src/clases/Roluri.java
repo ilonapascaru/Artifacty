@@ -1,5 +1,8 @@
 package clases;
 
+import javax.xml.bind.annotation.XmlRootElement;
+
+@XmlRootElement
 public class Roluri {
 
     private int id_rol;

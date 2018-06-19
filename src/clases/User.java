@@ -16,7 +16,7 @@ public class User {
     public String getUsername() {
         return username;
     }
-
+    @XmlElement
     public void setUsername(String username) {
         this.username = username;
     }
@@ -24,7 +24,7 @@ public class User {
     public String getPassword() {
         return password;
     }
-
+    @XmlElement
     public void setPassword(String password) {
         this.password = password;
     }
@@ -32,7 +32,7 @@ public class User {
     public int getId_user() {
         return id_user;
     }
-
+    @XmlElement
     public void setId_user(int id_user) {
         this.id_user = id_user;
     }
@@ -40,7 +40,7 @@ public class User {
     public String getGrupuri_interes() {
         return grupuri_interes;
     }
-
+    @XmlElement
     public void setGrupuri_interes(String grupuri_interes) {
         this.grupuri_interes = grupuri_interes;
     }
@@ -48,7 +48,7 @@ public class User {
     public String getTip_utilizator() {
         return tip_utilizator;
     }
-
+    @XmlElement
     public void setTip_utilizator(String tip_utilizator) {
         this.tip_utilizator = tip_utilizator;
     }
@@ -56,7 +56,7 @@ public class User {
     public String getEmail() {
         return email;
     }
-
+    @XmlElement
     public void setEmail(String email) {
         this.email = email;
     }
