@@ -22,12 +22,17 @@ public class InsertServlet extends HttpServlet {
             throws ServletException, IOException {
         response.setContentType("text/html");
         LogFunction logger = new LogFunction();
-        String archeology = request.getParameter("archeology");
+        String localizare = request.getParameter("localiz");
+        String tip1=request.getParameter("tip1");
+        String rol=request.getParameter("rol");
         String tip = request.getParameter("tip");
         String secol = request.getParameter("secol");
         String denumire = request.getParameter("denumire");
         String descriere = request.getParameter("descriere");
-
+        String valoare= request.getParameter("valoare");
+        String longitudine=request.getParameter("longitudine");
+        String latitudine= request.getParameter("latitudine");
+        String link=request.getParameter("link");
         Connection conn1 = null;
 
         int ok=0;
@@ -35,7 +40,7 @@ public class InsertServlet extends HttpServlet {
         try {
             conn1 = getConnection("artifacty");
 
-            insertArtefact(archeology,tip,secol,denumire,descriere, conn1);
+            insertArtefact(localizare,tip1,rol,tip,secol,valoare,denumire,descriere,link, conn1);
 
 
         }catch (Exception e) {
