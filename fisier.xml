@@ -1,26 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<userInfrom>
-<username>george</username>
-<name>George</name>
-<noLicenses>497</noLicenses>
-<dateInstance>1507106646852</dateInstance>
-<settings>
-<pattern>0</pattern>
-<verificationPercentage>1</verificationPercentage>
-<edit>true</edit>
-<autoSendReport>true</autoSendReport>
-<autoDigitalFingerprint>false</autoDigitalFingerprint>
-<autoErase>false</autoErase>
-<elapsedTimeUntilAutoErase>0</elapsedTimeUntilAutoErase>
-<autoUnfreeze>false</autoUnfreeze>
-<customReportName>false</customReportName>
-</settings>
-<lots>
-<id>835063817</id>
-<name>Supreme Lot</name>
-</lots>
-<lots>
-<id>404847848</id>
-<name>Lot Release 29.09.2017</name>
-</lots>
-</userInfrom>
+<artefacte>
+    <denumire>artefact2</denumire>
+    <descriere>kool</descriere>
+    <loc>Grecia Antica</loc>
+    <perioada_datata>bc</perioada_datata>
+    <rol>Tehnic</rol>
+    <tip>Arheologice</tip>
+    <valoare>101</valoare>
+</artefacte>
