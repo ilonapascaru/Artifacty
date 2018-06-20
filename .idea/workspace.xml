@@ -39,29 +39,56 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="LogFunction.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/function/LogFunction.java">
+      <file leaf-file-name="statistici.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/statistici.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="55">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            <state relative-caret-position="-34">
+              <caret line="5" column="2" lean-forward="true" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
+              <folding>
+                <marker date="1529450609931" expanded="true" signature="716:789" ph="select * fro... statistica" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/login.jsp">
+      <file leaf-file-name="statistici3.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/statistici3.jsp">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="Vizualizare.jsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/Vizualizare.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-405">
-              <caret line="41" column="17" selection-start-line="41" selection-start-column="17" selection-end-line="41" selection-end-column="17" />
+            <state relative-caret-position="272">
+              <caret line="21" column="23" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
+              <folding>
+                <marker date="1529481483328" expanded="true" signature="1506:1940" ph="select a.den... artefacte" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="register.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/register.jsp">
+      <file leaf-file-name="colectii.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/colectii.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-629">
-              <caret line="68" column="36" selection-start-line="68" selection-start-column="36" selection-end-line="68" selection-end-column="36" />
+            <state relative-caret-position="114">
+              <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="colectii2.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/colectii2.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="23" column="35" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
+              <folding>
+                <marker date="1529481239089" expanded="true" signature="2765:2828" ph="select id_lo... localizari" />
+                <marker date="1529481239089" expanded="true" signature="3281:3340" ph="select id_ro... roluri" />
+                <marker date="1529481239089" expanded="true" signature="3764:3820" ph="select id_ti... tip" />
+                <marker date="1529481239089" expanded="true" signature="4247:4619" ph="select * fro... artefacte" />
+                <marker date="1529481239089" expanded="true" signature="4247:4620" ph="select a.den... artefacte" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -69,38 +96,40 @@
       <file leaf-file-name="contact.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/contact.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="965">
-              <caret line="68" column="13" lean-forward="true" selection-start-line="68" selection-start-column="13" selection-end-line="68" selection-end-column="13" />
+            <state relative-caret-position="64">
+              <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ContactServlet.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pages/ContactServlet.java">
+      <file leaf-file-name="homeLI.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/homeLI.jsp">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="261">
-              <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="204">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Register.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pages/Register.java">
+      <file leaf-file-name="localizare.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/localizare.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="54" column="44" selection-start-line="54" selection-start-column="44" selection-end-line="54" selection-end-column="44" />
+            <state relative-caret-position="255">
+              <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LoginServlet.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/login/LoginServlet.java">
+      <file leaf-file-name="login.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/login.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-99">
-              <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+            <state relative-caret-position="238">
+              <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -120,8 +149,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/filtre/Logguri.java" />
-        <option value="$PROJECT_DIR$/src/filtre/Logger.java" />
         <option value="$PROJECT_DIR$/src/filtre/Logger1.java" />
         <option value="$PROJECT_DIR$/src/pages/ServletLog.java" />
         <option value="$PROJECT_DIR$/src/userInfrom/UserInfromServlet.java" />
@@ -144,9 +171,7 @@
         <option value="$PROJECT_DIR$/src/utile/Redirect.java" />
         <option value="$PROJECT_DIR$/src/login/UtilFunction.java" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/01ae78ee-0fd3-48c2-a31f-1b5b35908e7a/console.sql" />
-        <option value="$PROJECT_DIR$/web/login.jsp" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/01ae78ee-0fd3-48c2-a31f-1b5b35908e7a/console_1.sql" />
-        <option value="$PROJECT_DIR$/web/register.jsp" />
         <option value="$PROJECT_DIR$/src/pages/Register.java" />
         <option value="$PROJECT_DIR$/src/pages/ImportServlet.java" />
         <option value="$PROJECT_DIR$/web/import.html" />
@@ -156,7 +181,6 @@
         <option value="$PROJECT_DIR$/src/clases/Localizari.java" />
         <option value="$PROJECT_DIR$/web/colectii.html" />
         <option value="$PROJECT_DIR$/web/statistici.jsp" />
-        <option value="$PROJECT_DIR$/web/colectii.jsp" />
         <option value="$PROJECT_DIR$/web/css/style.css" />
         <option value="$PROJECT_DIR$/src/pages/ColectiiServlet.java" />
         <option value="$PROJECT_DIR$/src/pages/Welcome.java" />
@@ -164,13 +188,18 @@
         <option value="$PROJECT_DIR$/src/login/LoginServlet.java" />
         <option value="$PROJECT_DIR$/src/clases/Artefacts.java" />
         <option value="$PROJECT_DIR$/src/pages/ArtefactServlet.java" />
-        <option value="$PROJECT_DIR$/web/colectii2.jsp" />
-        <option value="$PROJECT_DIR$/web/import.jsp" />
         <option value="$PROJECT_DIR$/src/pages/InsertServlet.java" />
         <option value="$PROJECT_DIR$/src/pages/ExportServlet.java" />
-        <option value="$PROJECT_DIR$/web/contact.jsp" />
         <option value="$PROJECT_DIR$/src/pages/ContactServlet.java" />
         <option value="$PROJECT_DIR$/src/function/DatabaseFunction.java" />
+        <option value="$PROJECT_DIR$/web/colectii2.jsp" />
+        <option value="$PROJECT_DIR$/web/import.jsp" />
+        <option value="$PROJECT_DIR$/web/register.jsp" />
+        <option value="$PROJECT_DIR$/web/Vizualizare.jsp" />
+        <option value="$PROJECT_DIR$/web/colectii.jsp" />
+        <option value="$PROJECT_DIR$/web/contact.jsp" />
+        <option value="$PROJECT_DIR$/web/localizare.jsp" />
+        <option value="$PROJECT_DIR$/web/login.jsp" />
       </list>
     </option>
   </component>
@@ -489,12 +518,12 @@
       <workItem from="1529421422119" duration="8799000" />
       <workItem from="1529430787325" duration="19873000" />
       <workItem from="1529476031961" duration="66000" />
-      <workItem from="1529476306895" duration="777000" />
+      <workItem from="1529476306895" duration="1626000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="217236000" />
+    <option name="totallyTimeSpent" value="218085000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -506,7 +535,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -565,28 +594,10 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/0665c83c-8ebd-4e10-bd0e-4b5788553532/console.sql" />
-    <entry file="file://$PROJECT_DIR$/src/clases/UserInformServlet.java" />
-    <entry file="file://$PROJECT_DIR$/src/logout/LogoutServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/mysql/FirstExample.java" />
-    <entry file="file://$PROJECT_DIR$/src/pages/ServletLog.java" />
     <entry file="file://$PROJECT_DIR$/src/clases/Lots.java" />
     <entry file="file://$PROJECT_DIR$/src/clases/Settings.java" />
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/index.jsp">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
@@ -611,6 +622,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="343">
           <caret line="30" column="32" lean-forward="true" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -652,13 +666,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/statistici.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="840">
-          <caret line="40" column="32" selection-start-line="40" selection-start-column="32" selection-end-line="40" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/filtre/WelcomeFilter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
@@ -677,13 +684,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
           <caret line="30" column="49" lean-forward="true" selection-start-line="30" selection-start-column="49" selection-end-line="30" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/colectii.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="61" column="2" lean-forward="true" selection-start-line="61" selection-start-column="2" selection-end-line="68" selection-end-column="11" />
         </state>
       </provider>
     </entry>
@@ -719,13 +719,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
           <caret line="78" lean-forward="true" selection-start-line="78" selection-end-line="78" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/import.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="497">
-          <caret line="102" column="7" selection-start-line="102" selection-start-column="7" selection-end-line="102" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1431#1442#0" expanded="true" />
+            <marker date="1529449851949" expanded="true" signature="1596:2049" ph="select a.den... artefacte" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -733,6 +731,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="497">
           <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -740,13 +741,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="497">
           <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/Vizualizare.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="65" lean-forward="true" selection-start-line="10" selection-start-column="65" selection-end-line="10" selection-end-column="65" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -777,13 +774,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/colectii2.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="169" column="13" lean-forward="true" selection-start-line="169" selection-start-column="13" selection-end-line="169" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/function/LogFunction.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="55">
@@ -791,31 +781,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/login.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-405">
-          <caret line="41" column="17" selection-start-line="41" selection-start-column="17" selection-end-line="41" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/register.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-629">
-          <caret line="68" column="36" selection-start-line="68" selection-start-column="36" selection-end-line="68" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/contact.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="965">
-          <caret line="68" column="13" lean-forward="true" selection-start-line="68" selection-start-column="13" selection-end-line="68" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/ContactServlet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="261">
-          <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
+          <caret line="57" selection-start-line="57" selection-end-line="57" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -831,8 +800,105 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/login/LoginServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-99">
-          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+        <state relative-caret-position="289">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/colectia.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-357" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/colectii.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/import.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="21" column="37" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/register.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/statistici3.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/colectii.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/colectii2.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="35" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
+          <folding>
+            <marker date="1529481239089" expanded="true" signature="2765:2828" ph="select id_lo... localizari" />
+            <marker date="1529481239089" expanded="true" signature="3281:3340" ph="select id_ro... roluri" />
+            <marker date="1529481239089" expanded="true" signature="3764:3820" ph="select id_ti... tip" />
+            <marker date="1529481239089" expanded="true" signature="4247:4619" ph="select * fro... artefacte" />
+            <marker date="1529481239089" expanded="true" signature="4247:4620" ph="select a.den... artefacte" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/contact.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/homeLI.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/localizare.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/statistici.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-34">
+          <caret line="5" column="2" lean-forward="true" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
+          <folding>
+            <marker date="1529450609931" expanded="true" signature="716:789" ph="select * fro... statistica" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/Vizualizare.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="21" column="23" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
+          <folding>
+            <marker date="1529481483328" expanded="true" signature="1506:1940" ph="select a.den... artefacte" />
+          </folding>
         </state>
       </provider>
     </entry>

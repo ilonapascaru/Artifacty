@@ -13,12 +13,11 @@
 
 <!-- navbar -->
 <div class="topnav" id="myTopnav">
-    <a href="home.html" >Home</a>
+    <a href="homeLI.jsp" >Home</a>
     <a href="colectii.jsp">Colectii</a>
     <a href="import.jsp">Import</a>
     <a href="statistici.jsp">Statistici</a>
     <a href="contact.jsp"class="active">Contact</a>
-    <a href="cauta.html">Cauta</a>
     <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
 
 

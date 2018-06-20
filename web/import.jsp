@@ -20,7 +20,6 @@
     <a href="import.jsp"class="active">Import</a>
     <a href="statistici.jsp">Statistici</a>
     <a href="contact.jsp">Contact</a>
-    <a href="cauta.html">Cauta</a>
     <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
 
 
